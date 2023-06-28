@@ -87,6 +87,14 @@ const Works = () => {
           and manage projects effectively.
         </motion.p>
       </div>
+      <div className='w-full flex'>
+        <motion.p
+          variants={fadeIn("", "", 0.1, 1)}
+          className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        >
+          <p>My GIT Repositories - <a className="text-blue-600/100" href="https://github.com/Version40?tab=repositories" target="_blank">GIT</a></p>
+        </motion.p>
+      </div>
 
       <div className='mt-20 flex flex-wrap gap-7'>
         {projects.map((project, index) => (

@@ -124,7 +124,7 @@ const Contact = () => {
       </motion.div>
 
       <div className='xl:flex-1 xl:h-auto md:h-[100px] h-[100px]'>
-        <p className="mt-5 mb-5">LinkedIn - <a className="text-secondary" href="https://www.linkedin.com/in/ivan-mikityuk-629907274/" target="_blank">Ivan Mikityuk</a></p>
+        <p className="mt-5 mb-5">LinkedIn - <a className="text-blue-600/100" href="https://www.linkedin.com/in/ivan-mikityuk-629907274/" target="_blank">Ivan Mikityuk</a></p>
         <p>Telegram/Viber - 380955400455</p>
       </div>
     </div>

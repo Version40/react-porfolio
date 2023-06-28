@@ -3,9 +3,6 @@ import {
   backend,
   creator,
   web,
-  python,
-  javascript,
-  react,
   itproger,
   shortener,
   django,
@@ -51,67 +48,17 @@ const services = [
 
 const experiences = [
   {
-    title: "Learning and improving programming skills on Python",
-    company_name: "Python",
-    icon: python,
-    iconBg: "#383E56",
-    date: "Sep 2022 - Dec 2022",
-    points: [
-      "Conditions, cycles",
-      "Functional programming",
-      "Algorithm basics",
-      "Object-Oriented Programming (OOP)",
-      "Concurrency",
-      "Code testing",
-    ],
-  },
-  {
-    title: "Learning and improving programming skills on JavaScript",
-    company_name: "JavaScript",
-    icon: javascript,
-    iconBg: "#E6DEDD",
-    date: "Dec 2022 - Feb 2023",
-    points: [
-      "Functions, arrays, cycles",
-      "Iterations in arrays",
-      "Objects in JavaScript",
-      "Document Object Model",
-      "Object-oriented programming in JS: getters and setters, classes, modules"
-    ],
-  },
-  {
-    title: "Programming courses - Python developer",
-    company_name: "itProger",
+    title: "Work on Freelance",
+    company_name: "Freelance",
     icon: itproger,
     iconBg: "#383E56",
-    date: "Feb 2023 - May 2023",
-    text: "Follow the link to check my diploma - ",
-    link: "https://itproger.com/view-diplom/7f2b00ac4a217025732482ef12acf19b/python",
-    link_name: "Diploma",
+    date: "Sep 2022 - Present",
     points: [
-      "Basics of Python",
-      "Python SQL",
-      "Testing",
-      "Development of Telegram bots",
-      "HTML",
-      "CSS3, Bootstrap",
-      "Git version control",
-      "Basics of JavaScript",
-      "The jQuery library",
-      "Django",
-    ],
-  },
-  {
-    title: "Developing with React.js",
-    company_name: "React.js",
-    icon: react,
-    iconBg: "#E6DEDD",
-    date: "May 2023 - Present",
-    points: [
-      "Rendering and lifecycle methods",
-      "State and work with events",
-      "Stylization of components",
-      "Fragments, portals, links",
+      "Website parsing",
+      "Development of telegram bots (aiogram lib.)",
+      "Adaptive layout of the site according to the model",
+      "Website development on such frameworks like Django and React.js",
+      "Testing and QA",
     ],
   },
 ];
@@ -140,16 +87,16 @@ const projects = [
     source_code_link: "https://github.com/Version40/project_shortener",
   },
   {
-    name: "IT Courses",
+    name: "Films/Serials Website",
     description:
-      "Web application that allows users to find both free and paid courses on learning programming languages and various libraries.",
+      "A website that allows users to view all available movies and TV series that are posted on the resource.",
     tags: [
       {
-        name: "python",
+        name: "django",
         color: "blue-text-gradient",
       },
       {
-        name: "django",
+        name: "react.js",
         color: "green-text-gradient",
       },
       {
@@ -158,7 +105,7 @@ const projects = [
       },
     ],
     image: django,
-    source_code_link: "https://github.com/Version40/django_website",
+    source_code_link: "https://github.com/Version40/django-react-web",
   },
   {
     name: "Sender Bot",
